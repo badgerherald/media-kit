@@ -1,0 +1,57 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  background: #1c78d3;
+  font-family: 'PT Serif', serif; }
+
+.pt-sans {
+  font-family: 'PT Sans Narrow', sans-serif; }
+
+.jumbotron {
+  height: 850px;
+  background: #1c78d3 url("../img/background.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-box-shadow: inset 0px -85px 120px -15px #1c78d3;
+  -moz-box-shadow: inset 0px -85px 120px -15px #1c78d3;
+  box-shadow: inset 0px -85px 120px -15px #1c78d3; }
+  .jumbotron > .container {
+    text-align: left; }
+    .jumbotron > .container h1 {
+      color: #fff;
+      font-family: 'PT Sans Narrow';
+      padding-top: 42px;
+      font-size: 3.0em;
+      text-transform: uppercase;
+      margin-bottom: 24px; }
+      .jumbotron > .container h1 > .the {
+        font-family: 'PT Serif', serif;
+        text-transform: lowercase;
+        font-size: .6em;
+        position: relative;
+        bottom: 5px;
+        font-style: italic; }
+    .jumbotron > .container p {
+      font-size: 1.2em;
+      line-height: 2.2em;
+      margin-bottom: 0px; }
+      .jumbotron > .container p > span {
+        background: #000;
+        color: #fff;
+        display: inline; }
+      .jumbotron > .container p.seller {
+        margin-top: 24px;
+        font-style: italic; }
+        .jumbotron > .container p.seller > span {
+          background: #9d1e2d; }
+
+@media only screen and (min-width: 767px) {
+  .jumbotron > .container {
+    text-align: center; }
+    .jumbotron > .container h1 {
+      padding-top: 180px; }
+    .jumbotron > .container p > span {
+      padding: 4px 10px; } }
