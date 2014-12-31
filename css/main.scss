@@ -1,109 +1,13 @@
-$hrld-blue : #1c78d3;
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-body {
-	background: $hrld-blue;
-	font-family: 'PT Serif', serif;
-}
-
-.pt-sans {
-	font-family: 'PT Sans Narrow', sans-serif;
-}
-
-.jumbotron {
-
-	// Height is actually set with javascript (todo).
-	height: 850px;
-
-	// Background image.
-	background: #1c78d3 url('../img/background.png') no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-
-	// Bottom box shadow.
-	-webkit-box-shadow: inset 0px -85px 120px -15px rgba(28,120,211,1);
-	-moz-box-shadow: inset 0px -85px 120px -15px rgba(28,120,211,1);
-	box-shadow: inset 0px -85px 120px -15px rgba(28,120,211,1);
-
-	// Jumbotron .container has main call to action.
-	& > .container {
-
-		text-align: left;
-		h1 {
-			color:#fff;
-			font-family: 'PT Sans Narrow';
-			padding-top: 42px;
-			font-size: 3.0em;
-			text-transform: uppercase;
-			margin-bottom: 24px;
-			& > .the {
-				font-family: 'PT Serif', serif;
-				text-transform: lowercase;
-				font-size: .6em;
-				position: relative;
-				bottom: 5px;
-				font-style: italic;
-			}
-		}
-
-		p {
-			font-size: 1.2em;
-			line-height: 2.2em;
-			margin-bottom: 0px;
-			& > span {
-				background: #000;
-				color:#fff;
-				display: inline;
-			}
-
-			&.seller {
-				margin-top: 24px;
-				font-style: italic;
-				& > span {
-					background: #9d1e2d;
-				}
-			}
-		}
-
-	}
-
-}
-
-.container[role=main] {
-
-}
-
-@media only screen and (min-width : 767px) {
-
-	.jumbotron {
-
-	// Jumbotron .container has main call to action.
-	& > .container {
-
-		text-align: center;
-		h1 {
-			padding-top: 180px;
-		}
-		p > span {
-			padding: 4px 10px;
-		}
-	}
-}
-
-}
 
 
+@import "functions.scss";
+@import "normalize.scss";
+@import "page.scss";
 
+@import "hero.scss";
 
+/* about also contains 'generic' slide treatments. */
+@import "about.scss";
 
-
-
-
-
-
-
+@import "nav.scss";
+@import "helpers.scss";
