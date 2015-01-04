@@ -14,12 +14,18 @@
 		tr td:last-child {
 			width: auto ;
 		}
-		.explainer {
+		.explainer, .top-explainer {
 			font-style: italic;
 			font-size: 13px;
 			color: rgba(#fff,.6);
 			position: relative;
+
+		}
+		.explainer {
 			top: -3px;
+		}
+		.top-explainer {
+			top: 3px;
 		}
 		.price {
 			text-align: right;

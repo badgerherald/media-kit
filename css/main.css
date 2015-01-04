@@ -636,12 +636,15 @@ b {
     border-bottom: 2px solid rgba(255, 255, 255, 0.2); }
   .rates tbody tr td:last-child {
     width: auto; }
-  .rates tbody .explainer {
+  .rates tbody .explainer, .rates tbody .top-explainer {
     font-style: italic;
     font-size: 13px;
     color: rgba(255, 255, 255, 0.6);
-    position: relative;
+    position: relative; }
+  .rates tbody .explainer {
     top: -3px; }
+  .rates tbody .top-explainer {
+    top: 3px; }
   .rates tbody .price {
     text-align: right; }
 
@@ -650,6 +653,19 @@ b {
   .digital-slide a {
     color: #1c78d3;
     text-decoration: none; }
+
+.print-slide {
+  background: #eff4f6;
+  color: #000; }
+  .print-slide a {
+    color: #1c78d3;
+    text-decoration: none; }
+  .print-slide h1 {
+    border-bottom-color: rgba(0, 0, 0, 0.1); }
+  .print-slide .rates, .print-slide .rates td {
+    border-color: rgba(0, 0, 0, 0.1) !important; }
+  .print-slide .rates .top-explainer {
+    color: rgba(0, 0, 0, 0.5); }
 
 nav[role=main] {
   width: 100%;
