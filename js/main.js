@@ -2,7 +2,7 @@
 $(document).ready(function() {
 
 	$(window).resize(function() {
-		$('.slide').height(window.innerHeight - 140);
+		$('.slide').css('min-height',window.innerHeight - 140);
 	}).resize();
 	
 });

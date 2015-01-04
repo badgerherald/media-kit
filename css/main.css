@@ -1,3 +1,6 @@
+/*
+ * Style placeholder text with the given content.
+ */
 /*  Fonts */
 /*  Colors */
 /* logo blue */
@@ -273,6 +276,12 @@ input[type="submit"] {
   /* 3 */ }
 
 /**
+ * Remove annoying input glow
+ */
+textarea:focus, input:focus {
+  outline: 0; }
+
+/**
  * Re-set default cursor for disabled elements.
  */
 button[disabled],
@@ -364,6 +373,9 @@ body {
   background: #1c78d3;
   font-family: 'PT Serif', serif;
   color: #fff; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-style: italic; }
 
 .pt-sans {
   font-family: 'PT Sans Narrow', sans-serif; }
@@ -457,17 +469,20 @@ b {
       .hero-slide > .slide-wrap p > span {
         padding: 4px 10px; } }
 /* about also contains 'generic' slide treatments. */
+/** == ALL CONTENT SLIDE STYLINGS =============================================================== */
 /* content slides are basically everything except the hero */
-.content-slide h1 {
-  display: block;
-  border-bottom: 4px solid rgba(255, 255, 255, 0.2);
-  padding-bottom: 12px;
-  padding-top: 60px;
-  font-style: italic;
-  font-size: 46px;
-  text-align: center; }
-.content-slide .left-pane, .content-slide .right-pane {
-  width: 100%; }
+.content-slide {
+  padding-bottom: 100px; }
+  .content-slide h1 {
+    display: block;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 12px;
+    padding-top: 60px;
+    font-style: italic;
+    font-size: 46px;
+    text-align: center; }
+  .content-slide .left-pane, .content-slide .right-pane {
+    width: 100%; }
 
 /* base: 740px. */
 @media (min-width: 760px) {
@@ -481,6 +496,72 @@ b {
 /** == ABOUT SLIDE STYLINGS ===================================================================== */
 .about-slide {
   /* Right pane for the about slide is converted to the "by the numbers" box */ }
+  .about-slide .left-pane .newsletter {
+    margin-top: 36px; }
+    .about-slide .left-pane .newsletter .indicates-required {
+      display: none; }
+    .about-slide .left-pane .newsletter input[type=text], .about-slide .left-pane .newsletter input[type=email] {
+      width: 80%;
+      font-family: 'pt sans narrow';
+      margin-bottom: 12px;
+      background: rgba(255, 255, 255, 0.1);
+      border: none;
+      padding: 6px 12px;
+      box-sizing: border-box;
+      color: #fff; }
+      .about-slide .left-pane .newsletter input[type=text]::-webkit-input-placeholder, .about-slide .left-pane .newsletter input[type=email]::-webkit-input-placeholder {
+        color: #000;
+        text-transform: uppercase; }
+      .about-slide .left-pane .newsletter input[type=text]:-moz-placeholder, .about-slide .left-pane .newsletter input[type=email]:-moz-placeholder {
+        color: #000;
+        text-transform: uppercase; }
+      .about-slide .left-pane .newsletter input[type=text]::-moz-placeholder, .about-slide .left-pane .newsletter input[type=email]::-moz-placeholder {
+        color: #000;
+        text-transform: uppercase; }
+      .about-slide .left-pane .newsletter input[type=text]:-ms-input-placeholder, .about-slide .left-pane .newsletter input[type=email]:-ms-input-placeholder {
+        color: #000;
+        text-transform: uppercase; }
+      .about-slide .left-pane .newsletter input[type=text]:focus, .about-slide .left-pane .newsletter input[type=email]:focus {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        padding-bottom: 5px; }
+        .about-slide .left-pane .newsletter input[type=text]:focus::-webkit-input-placeholder, .about-slide .left-pane .newsletter input[type=email]:focus::-webkit-input-placeholder {
+          color: rgba(255, 255, 255, 0.6);
+          text-transform: uppercase; }
+        .about-slide .left-pane .newsletter input[type=text]:focus:-moz-placeholder, .about-slide .left-pane .newsletter input[type=email]:focus:-moz-placeholder {
+          color: rgba(255, 255, 255, 0.6);
+          text-transform: uppercase; }
+        .about-slide .left-pane .newsletter input[type=text]:focus::-moz-placeholder, .about-slide .left-pane .newsletter input[type=email]:focus::-moz-placeholder {
+          color: rgba(255, 255, 255, 0.6);
+          text-transform: uppercase; }
+        .about-slide .left-pane .newsletter input[type=text]:focus:-ms-input-placeholder, .about-slide .left-pane .newsletter input[type=email]:focus:-ms-input-placeholder {
+          color: rgba(255, 255, 255, 0.6);
+          text-transform: uppercase; }
+    .about-slide .left-pane .newsletter .button {
+      background: #000;
+      color: #fff;
+      padding: 6px 12px;
+      border: none;
+      margin-top: 6px; }
+    .about-slide .left-pane .newsletter label {
+      display: none; }
+  .about-slide .left-pane .staff .profile {
+    height: 60px;
+    overflow: hidden;
+    line-height: 21px; }
+  .about-slide .left-pane .staff .mug {
+    float: left;
+    width: 80px;
+    padding-right: 20px; }
+  .about-slide .left-pane .staff .profile-title {
+    font-size: 14px;
+    line-height: 12px; }
+  .about-slide .left-pane .staff .contact-links {
+    font-size: 14px; }
+    .about-slide .left-pane .staff .contact-links a {
+      color: #000;
+      text-decoration: none; }
+      .about-slide .left-pane .staff .contact-links a:hover {
+        color: rgba(255, 255, 255, 0.6); }
   .about-slide .right-pane {
     background: rgba(255, 255, 255, 0.2);
     width: 93.33333%;
@@ -493,10 +574,9 @@ b {
         margin: 0; }
       .about-slide .right-pane header h4 {
         font-family: 'PT sans narrow';
+        font-style: normal;
         color: #000;
         font-size: 14px; }
-      .about-slide .right-pane header h2 {
-        font-style: italic; }
     .about-slide .right-pane .market, .about-slide .right-pane .reach {
       width: 50%;
       font-size: 16px;
@@ -505,6 +585,7 @@ b {
         font-family: 'PT sans narrow';
         color: #000;
         font-size: 18px;
+        font-style: normal;
         text-transform: uppercase;
         margin: 24px 0 18px; }
       .about-slide .right-pane .market ul, .about-slide .right-pane .reach ul {
@@ -523,23 +604,53 @@ b {
             padding-right: 3px;
             display: block; }
     .about-slide .right-pane .us-v-them {
-      padding-left: 160px;
+      padding-left: 120px;
       border-top: 1px solid #1c78d3;
       padding-bottom: 20px; }
       .about-slide .right-pane .us-v-them.klout {
         background: url("../img/us-v-them-klout.png") 0 20px no-repeat;
-        height: 227px; }
+        background-size: 100px 148px;
+        height: 168px; }
       .about-slide .right-pane .us-v-them.size-matters {
         background: url("../img/us-v-them-size-matters.png") 0 20px no-repeat;
-        height: 209px; }
+        background-size: 100px 135px;
+        height: 155px; }
       .about-slide .right-pane .us-v-them.circulation {
         background: url("../img/us-v-them-biweekly.png") 0 20px no-repeat;
-        height: 197px; }
+        background-size: 100px 120px;
+        height: 120px; }
 
 @media (min-width: 760px) {
   .about-slide .right-pane {
     width: 43.24324%;
     padding: 2.7027%; } }
+.rates {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: separate;
+  border-top: 2px solid rgba(255, 255, 255, 0.2); }
+  .rates tbody tr:first-child td {
+    padding-top: 12px; }
+  .rates tbody tr:last-child td {
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2); }
+  .rates tbody tr td:last-child {
+    width: auto; }
+  .rates tbody .explainer {
+    font-style: italic;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.6);
+    position: relative;
+    top: -3px; }
+  .rates tbody .price {
+    text-align: right; }
+
+.digital-slide {
+  background: #000; }
+  .digital-slide a {
+    color: #1c78d3;
+    text-decoration: none; }
+
 nav[role=main] {
   width: 100%;
   font-family: 'PT Sans Narrow';
@@ -694,3 +805,5 @@ nav[role=main] {
 	}
 }
 *****/
+
+/*# sourceMappingURL=main.css.map */

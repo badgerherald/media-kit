@@ -5,3 +5,4 @@
 ## CSS is generated with SASS.
 .css
 */.sass-cache/*
+*.css.map

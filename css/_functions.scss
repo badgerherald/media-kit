@@ -9,6 +9,33 @@ $base-line-height: 21px;
     @return ($px / $base) * 1em;
 }
 
+/*
+ * Style placeholder text with the given content.
+ */
+@mixin optional-at-root($sel) {
+  @at-root #{if(not &, $sel, selector-append(&, $sel))} {
+    @content;
+  }
+}
+
+@mixin placeholder {
+  @include optional-at-root('::-webkit-input-placeholder') {
+    @content;
+  }
+
+  @include optional-at-root(':-moz-placeholder') {
+    @content;
+  }
+
+  @include optional-at-root('::-moz-placeholder') {
+    @content;
+  }
+
+  @include optional-at-root(':-ms-input-placeholder') {
+    @content;
+  }
+}
+
 /*  Fonts */
 $headline: 	'PT Sans Narrow', Helvetica, Arial, Sans-Serif;
 $body:		'Noto Serif', Oalatino, Georgia, Serif;
@@ -63,3 +90,4 @@ $twelveColumns:		940px;
 $thirteenColumns:	1020px;
 $fourteenColumns:	1100px;
 $fifteenColumns:	1180px;
+
