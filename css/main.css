@@ -478,6 +478,7 @@ b {
     border-bottom: 4px solid rgba(255, 255, 255, 0.2);
     padding-bottom: 12px;
     padding-top: 60px;
+    margin-top: 0;
     font-style: italic;
     font-size: 46px;
     text-align: center; }
