@@ -1,12 +1,15 @@
 $bordercolor :rgba(255,255,255,.1);
 
 nav[role=main] {
-
 	width: 100%;
 	font-family: 'PT Sans Narrow';
 	text-transform: uppercase;
 	font-size: 15px;
+	z-index:10;
 	border-bottom: 2px solid $bordercolor;
+
+	background: $hrld-blue;
+
 	ul {
 		list-style-type: none;
 		margin:0 auto;
