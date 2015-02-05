@@ -472,7 +472,8 @@ b {
 /** == ALL CONTENT SLIDE STYLINGS =============================================================== */
 /* content slides are basically everything except the hero */
 .content-slide {
-  padding-bottom: 100px; }
+  padding-bottom: 200px;
+  padding-top: 200px; }
   .content-slide h1 {
     display: block;
     border-bottom: 4px solid rgba(255, 255, 255, 0.2);
@@ -667,6 +668,19 @@ b {
     border-color: rgba(0, 0, 0, 0.1) !important; }
   .print-slide .rates .top-explainer {
     color: rgba(0, 0, 0, 0.5); }
+
+.contact-slide {
+  background: #d00404;
+  color: #fff; }
+  .contact-slide .large-contact {
+    font-size: 60px;
+    font-family: 'PT Sans Narrow';
+    line-height: 12px; }
+    .contact-slide .large-contact a {
+      color: #fff;
+      text-decoration: none; }
+      .contact-slide .large-contact a:hover {
+        opacity: .8; }
 
 nav[role=main] {
   width: 100%;

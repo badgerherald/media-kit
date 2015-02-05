@@ -1,0 +1,14 @@
+.contact-slide {
+  background: #d00404;
+  color: #fff; }
+  .contact-slide .large-contact {
+    font-size: 60px;
+    font-family: 'PT Sans Narrow';
+    line-height: 12px; }
+    .contact-slide .large-contact a {
+      color: #fff;
+      text-decoration: none; }
+      .contact-slide .large-contact a:hover {
+        opacity: .8; }
+
+/*# sourceMappingURL=_contact.css.map */
