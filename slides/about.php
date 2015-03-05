@@ -21,10 +21,10 @@
 				<h2>Our staff</h2>
 
 				<p class="profile">
-					<img class="mug" src='http://badgerherald.com/wordpress/media/2014/10/Screen-Shot-2014-10-15-at-5.05.41-PM-e1416505593587-294x280.png'/>
+					<img class="mug" src='https://badgerherald.com/wordpress/media/2015/01/untitled-6-400x280.jpg'/>
 					Nick Rush<br/>
 					<span class="profile-title">Ad Director<br/></span>
-					<span class="contact-links"><a href="#">Email</a> &middot; <a href="tel://1-608-257-4712,301">608-257-4012 x101</a></span>
+					<span class="contact-links"><a href="#">Email</a> &middot; <a href="tel://1-608-257-4712,702">608-257-4712 x702</a></span>
 				</p>
 
 				</div>
