@@ -202,6 +202,103 @@ $(document).ready(function() {
 		return 'rgba('+g.join()+')';
 	}
 
+	/**
+	 * =========================================================================
+	 * Region: Draw print ad sizes
+	 * =========================================================================
+	 */
+
+	function drawAds() {
+
+		$('.print-size canvas').each( function() {
+
+			// variables: 
+			var canvas 	= $(this),
+				ctx		= canvas[0].getContext("2d"),
+				width 	= $(this).attr("data-ad-width"),
+				height 	= $(this).attr("data-ad-height"),
+				adColor = "#cd0f18",
+				gutterColor = "rgba(0,0,0,.1)",
+				columnR = 20,	// column ration (how thick the column is comparatively).
+				gutterR = 1, 	// gutter ratio (how thick the gutter is comparatively).
+				column  = parseInt ( ( canvas.parent().width() / (columnR*6+gutterR*7) )*columnR ) ,
+				gutter  = parseInt ( ( canvas.parent().width() / (columnR*6+gutterR*7) )*gutterR ) ,
+				canvasSize = (column*6)+(gutter*7),
+				columnInch = 1.556,		// Size of a column inch (in print).
+				gutterInch = 0.111;		// Size of a gutter (in print).
+
+			// canvas setup:
+			console.log(width + " " + height);
+
+			canvas.attr("width",  canvasSize) ;
+			canvas.attr("height", canvasSize );
+
+			canvas.css({
+				'background':"rgba(0,0,0,.045)",
+				'display':'block',
+				'margin-bottom':"10px",
+				'width':'100%',
+				'height':'100%'
+			});
+
+			// draw gridlines:
+			ctx.fillStyle = gutterColor;
+			for (var i=1; i<6; i++) {
+				//vertical
+				ctx.fillRect(gutter*i+column*i,gutter,gutter,(column*6)+gutter*5);
+				// horizontal
+				ctx.fillRect(gutter,gutter*i+column*i,(column*6)+gutter*5,gutter);
+			}
+
+			// draw ad: 
+			ctx.fillStyle = adColor;
+			var adWidth = column*width + width*gutter + gutter/2; // gutter/2 so it overflows (tastefully)
+			var adHeight = column*height + height*gutter + gutter/2;
+			ctx.fillRect(canvasSize-adWidth-gutter,canvasSize-adHeight-gutter,adWidth,adHeight);
+			console.log(w);
+
+			// populate price and values:
+			var inchWidth 	= (columnInch*width + gutterInch*(width-1)).toFixed(3),
+				inchHeight 	= (columnInch*height + gutterInch*(height-1)).toFixed(3);
+
+			canvas.parent().find(".size .width").html(inchWidth + '\"');
+			canvas.parent().find(".size .height").html(inchHeight + '\"');
+
+		});
+
+	}
+	drawAds();
+
+	function priceAds() {
+
+		var inchPrice = $('.rate-nav').find('a.active').parent().attr('data-rate'),
+			priceType = $('.rate-nav').find('a.active').html() + " Rate";
+
+		$('.print-size').each( function() {
+			
+			var ad = $(this),
+				width = $(this).find('canvas').attr("data-ad-width"),
+				height = $(this).find('canvas').attr("data-ad-height");
+
+			var price = width*height*inchPrice;
+
+			ad.find('.price .dollars').html("$" + price.toFixed(2));
+			ad.find('.price .type').html(priceType);
+
+		});
+
+	}
+	priceAds();
+	$('.rate-nav').find('a').click(function(e) {
+
+		e.preventDefault();
+		$(this).parents('.rate-nav').find('a').removeClass('active');
+		$(this).addClass('active');
+
+		priceAds();
+
+	});
+
 });
 
 

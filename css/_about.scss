@@ -6,7 +6,7 @@
 
 	padding-bottom: 200px;
 	padding-top: 200px;
-
+	position: relative;
 	h1 {
 		display: block;
 		border-bottom: 4px solid rgba(white,.2);
@@ -18,8 +18,16 @@
 		text-align: center;
 	}
 
-	.left-pane, .right-pane {
+	.left-pane, .right-pane, .full-pane {
 		width: 100%;
+		position: relative;
+	}
+
+	hr {
+		height:4px;
+		border-width:0;
+		background: rgba(black,0.1);
+		display: block;
 	}
 }
 
@@ -183,7 +191,7 @@
 				height: 155px;
 			}
 			&.circulation {
-				background: url('../img/us-v-them-biweekly.png') 0 20px no-repeat;
+				background: url('../img/us-v-them-weekly.png') 0 20px no-repeat;
 				background-size: 100px 120px;
 				height: 120px;
 			}

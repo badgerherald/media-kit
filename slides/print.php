@@ -8,57 +8,226 @@
 			<header>
 				<h1>Print Advertising</h1>
 			</header>
+
+			<div class="left-pane">
+				<p>With thousands of daily readers, advertising in print is a time proven way to get the word out.</p>
+			</div>
+
+			<div class="clearfix"></div>
+			<hr />
+			<div class="full-pane">
+			
+			<h2>Rates:</h2>
+
+			<ul class="rate-nav">
+				<li data-rate="24.55"><a href="#">Student Org</a></li>
+				<li data-rate="25.55"><a href="#">UW affiliated</a></li>
+				<li data-rate="30.25"><a href="#">Non-Profit</a></li>
+				<li data-rate="30.90"><a href="#">Local</a></li>
+				<li data-rate="35.75"><a href="#">Agency</a></li>
+				<li data-rate="36.50"><a href="#" class="active">National</a></li>
+			</ul>
+
+
+			<div class="small-sizes size-row">
+
+				<?php
+				/**
+				 * Values are all calculated and populated by javascript.
+				 */
+				?> 
+				<div class="print-size">
+					<canvas data-ad-width="2" data-ad-height="1"></canvas>
+						<div class="size">
+							<span class="width">width</span> x 
+							<span class="height">height</span>
+						</div>
+						<div class="price">
+							<span class="dollars">$</span> 
+							<span class="type"></span>
+						</div>
+				</div>
+
+				<div class="print-size">
+					<canvas data-ad-width="2" data-ad-height="2"></canvas>
+						<div class="size">
+							<span class="width">width</span> x 
+							<span class="height">height</span>
+						</div>
+						<div class="price">
+							<span class="dollars">$</span> 
+							<span class="type"></span>
+						</div>
+				</div>
+
+				<div class="print-size">
+					<canvas data-ad-width="2" data-ad-height="3"></canvas>
+						<div class="size">
+							<span class="width">width</span> x 
+							<span class="height">height</span>
+						</div>
+						<div class="price">
+							<span class="dollars">$</span> 
+							<span class="type"></span>
+						</div>
+				</div>
+
+				<div class="print-size">
+					<canvas data-ad-width="3" data-ad-height="2"></canvas>
+						<div class="size">
+							<span class="width">width</span> x 
+							<span class="height">height</span>
+						</div>
+						<div class="price">
+							<span class="dollars">$</span> 
+							<span class="type"></span>
+						</div>
+				</div>
+
+				<div class="print-size">
+					<canvas data-ad-width="3" data-ad-height="3"></canvas>
+						<div class="size">
+							<span class="width">width</span> x 
+							<span class="height">height</span>
+						</div>
+						<div class="price">
+							<span class="dollars">$</span> 
+							<span class="type"></span>
+						</div>
+				</div>
+
+				<div class="clearfix"></div>
+
+			</div>
+
+			<div class="medium-sizes size-row">
+			
+				<div class="print-size">
+					<canvas data-ad-width="2" data-ad-height="6"></canvas>
+						<div class="size">
+							<span class="width">width</span> x 
+							<span class="height">height</span>
+						</div>
+						<div class="price">
+							<span class="dollars">$</span> 
+							<span class="type"></span>
+						</div>
+				</div>
+
+				<div class="print-size">
+					<canvas data-ad-width="4" data-ad-height="3"></canvas>
+						<div class="size">
+							<span class="width">width</span> x 
+							<span class="height">height</span>
+						</div>
+						<div class="price">
+							<span class="dollars">$</span> 
+							<span class="type"></span>
+						</div>
+				</div>
+
+				<div class="print-size">
+					<canvas data-ad-width="6" data-ad-height="2"></canvas>
+						<div class="size">
+							<span class="width">width</span> x 
+							<span class="height">height</span>
+						</div>
+						<div class="price">
+							<span class="dollars">$</span> 
+							<span class="type"></span>
+						</div>
+				</div>
+
+				<div class="print-size">
+					<canvas data-ad-width="4" data-ad-height="4"></canvas>
+						<div class="size">
+							<span class="width">width</span> x 
+							<span class="height">height</span>
+						</div>
+						<div class="price">
+							<span class="dollars">$</span> 
+							<span class="type"></span>
+						</div>
+				</div>
+
+				<div class="print-size">
+					<canvas data-ad-width="3" data-ad-height="6"></canvas>
+						<div class="size">
+							<span class="width">width</span> x 
+							<span class="height">height</span>
+						</div>
+						<div class="price">
+							<span class="dollars">$</span> 
+							<span class="type"></span>
+						</div>
+				</div>
+
+				<div class="clearfix"></div>
+			</div>
+
+			<div class="large-sizes size-row">
+			
+				<div class="print-size">
+					<canvas data-ad-width="6" data-ad-height="3"></canvas>
+						<div class="size">
+							<span class="width">width</span> x 
+							<span class="height">height</span>
+						</div>
+						<div class="price">
+							<span class="dollars">$</span> 
+							<span class="type"></span>
+						</div>
+				</div>
+
+				<div class="print-size">
+					<canvas data-ad-width="6" data-ad-height="4"></canvas>
+						<div class="size">
+							<span class="width">width</span> x 
+							<span class="height">height</span>
+						</div>
+						<div class="price">
+							<span class="dollars">$</span> 
+							<span class="type"></span>
+						</div>
+				</div>
+
+				<div class="print-size">
+					<canvas data-ad-width="4" data-ad-height="6"></canvas>
+						<div class="size">
+							<span class="width">width</span> x 
+							<span class="height">height</span>
+						</div>
+						<div class="price">
+							<span class="dollars">$</span> 
+							<span class="type"></span>
+						</div>
+				</div>
+
+				<div class="print-size">
+					<canvas data-ad-width="6" data-ad-height="6"></canvas>
+						<div class="size">
+							<span class="width">width</span> x 
+							<span class="height">height</span>
+						</div>
+						<div class="price">
+							<span class="dollars">$</span> 
+							<span class="type"></span>
+						</div>
+				</div>
+
+				<div class="clearfix"></div>
+
+			</div>
+
+			</div>
+
+	
 			
 			<div class="left-pane">
-				<img src="img/rate-card-print.png" width="100%" />
-			</div>			
-			
-			<div class="right-pane">
 
-				<p>With thousands of daily readers, advertising in print is a time proven way to get the word out.</p>
-
-				<h2>Circulation:</h2>
-
-				<p>11.5k papers distributed every Mon & Thur.</p>
-				<p>200 downtown newsstands on or near campus.</p>
-
-				<h2>How it works:</h2>
-
-				<p>Display ads are sold by column inches. Choose a width and height and multiply by the column rate. Don’t have artwork? Don’t worry. Our creative team can help convert previous artwork or design something completely new. <p> 
-
-				<h2>Rates:</h2>
+				<h2>Add ons:</h2>
 
 				<table class="rates">
-
-					<tbody>
-						<tr>
-				    		<td colspan="2" class="top-explainer">Column Inches:</td>
-				  		</tr>
-				  		<tr>
-				    		<td>National</td>
-				    		<td class="price">$12.75/inch</td>
-				  		</tr>
-				  		<tr>
-				    		<td>Agency</td>
-				   			<td class="price">$11/inch</td>
-				  		</tr>
-				  		<tr>
-				    		<td>Local</td>
-				   			<td class="price">$10.75/inch</td>
-				  		</tr>
-				  		<tr>
-				    		<td>Non-Profit</td>
-				   			<td class="price">$9.50/inch</td>
-				  		</tr>
-				  		<tr>
-				    		<td>UW</td>
-				   			<td class="price">$7.50/inch</td>
-				  		</tr>
-				  		<tr>
-				    		<td>Registered Student Org.</td>
-				   			<td class="price">$7.40/inch</td>
-				  		</tr>					  		
-				  	</tbody>
 
 					<tbody>
 						<tr>
@@ -113,42 +282,8 @@
 
 				</table>
 
-
-				<h2>Artwork:</h2>
-				<p><b>Have your own artwork for the ad?</b> Take a look at our column-inch system below that specifies the precise dimensions of the artwork that you provide.</p>
-
-				<table class="rates">
-					<tbody>
-						<tr>
-				    		<td colspan="2" class="top-explainer">Column Inches</td>
-				  		</tr>	
-				  		<tr>
-				    		<td>1 column</td>
-				    		<td class="price">1.556"</td>
-				  		</tr>	
-				  		<tr>
-				    		<td>2 columns</td>
-				    		<td class="price">3.223"</td>
-				  		</tr>
-				  		<tr>
-				    		<td>3 columns</td>
-				    		<td class="price">4.889"</td>
-				  		</tr>	
-				  		<tr>
-				    		<td>4 column</td>
-				    		<td class="price">6.556"</td>
-				  		</tr>	
-				  		<tr>
-				    		<td>5 columns</td>
-				    		<td class="price">8.222"</td>
-				  		</tr>
-				  		<tr>
-				    		<td>6 columns</td>
-				    		<td class="price">9.889"</td>
-				  		</tr>
-				  	</tbody>
-				  </table>
-
+			</div>
+			<div class="right-pane">
 				  <h2>VIP Bundles</h2>
 
 				  <table class="rates">

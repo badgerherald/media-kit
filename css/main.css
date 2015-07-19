@@ -473,7 +473,8 @@ b {
 /* content slides are basically everything except the hero */
 .content-slide {
   padding-bottom: 200px;
-  padding-top: 200px; }
+  padding-top: 200px;
+  position: relative; }
   .content-slide h1 {
     display: block;
     border-bottom: 4px solid rgba(255, 255, 255, 0.2);
@@ -483,8 +484,14 @@ b {
     font-style: italic;
     font-size: 46px;
     text-align: center; }
-  .content-slide .left-pane, .content-slide .right-pane {
-    width: 100%; }
+  .content-slide .left-pane, .content-slide .right-pane, .content-slide .full-pane {
+    width: 100%;
+    position: relative; }
+  .content-slide hr {
+    height: 4px;
+    border-width: 0;
+    background: rgba(0, 0, 0, 0.1);
+    display: block; }
 
 /* base: 740px. */
 @media (min-width: 760px) {
@@ -618,7 +625,7 @@ b {
         background-size: 100px 135px;
         height: 155px; }
       .about-slide .right-pane .us-v-them.circulation {
-        background: url("../img/us-v-them-biweekly.png") 0 20px no-repeat;
+        background: url("../img/us-v-them-weekly.png") 0 20px no-repeat;
         background-size: 100px 120px;
         height: 120px; }
 
@@ -668,6 +675,50 @@ b {
     border-color: rgba(0, 0, 0, 0.1) !important; }
   .print-slide .rates .top-explainer {
     color: rgba(0, 0, 0, 0.5); }
+  .print-slide .size-row {
+    padding-bottom: 30px; }
+  .print-slide .print-size {
+    width: 18%;
+    margin-left: 2.5%;
+    float: left;
+    font-size: 16px;
+    line-height: 16px; }
+    .print-slide .print-size h3 {
+      font-family: "PT Sans Narrow", Helvetica, Arial, Sans-Serif;
+      font-style: inherit;
+      margin-bottom: 20px; }
+    .print-slide .print-size .size {
+      font-family: monospace;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 3px;
+      font-size: 14px; }
+    .print-slide .print-size .price {
+      margin: 0px;
+      display: block; }
+    .print-slide .print-size:first-child {
+      margin-left: 0; }
+  .print-slide .rate-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0px; }
+    .print-slide .rate-nav li {
+      display: inline; }
+      .print-slide .rate-nav li a {
+        padding: 4px 10px;
+        display: inline-block;
+        color: #000;
+        color: #1c78d3; }
+        .print-slide .rate-nav li a:hover {
+          color: black; }
+        .print-slide .rate-nav li a.active {
+          color: black;
+          border: 1px solid rgba(0, 0, 0, 0.1);
+          border-radius: 18px; }
 
 .contact-slide {
   background: #d00404;

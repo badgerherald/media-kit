@@ -87,7 +87,7 @@
 				<div class="reach">
 					<h4>Reach</h4>
 					<ul>
-						<li><span class="num">11,500</span> Papers distributed biweekly</li>
+						<li><span class="num">11,500</span> Papers distributed weekly</li>
 						<li><span class="num">250,000+</span> Site sessions per month</li>
 						<li><span class="num">36,000+</span> Site visitors returning more than 10 times per month.</li>
 					</ul>
@@ -112,7 +112,7 @@
 				</div>
 
 				<div class="us-v-them circulation">
-					<p>Our biweekly distribution <b>stays on stands</b> longer than The Daily Cardinal, giving ads more exposure without the added cost of daily purchase.</p>
+					<p>Our weekly distribution <b>stays on stands</b> longer than The Daily Cardinal, giving ads more exposure without the added cost of daily purchase.</p>
 				</div>
 
 
