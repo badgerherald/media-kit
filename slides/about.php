@@ -102,10 +102,11 @@
 
 				<p>UW-Madison is a unique campus with a strong culture of student journalism boasting two separate newspapers. This is how we stack up against the competition.</p>
 
+				<!--
 				<div class="us-v-them size-matters">
 					<p>Make a big impression! Our broadsheet pages are <b>33% larger</b> than The Daily Cardinal!</p>
 				</div>
-
+				-->
 
 				<div class="us-v-them klout">
 					<p>With <b>3x</b> Facebook likes and <b>nearly twice</b> the twitter followers as The Daily Cardinal, we drive more traffic to our website and reach <b>thousands more students.</b></p>
