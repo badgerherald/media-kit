@@ -161,7 +161,8 @@ $(document).ready(function() {
 		var bgColor = $(slide).data('nav-background');
 		var txtColor = $(slide).data('nav-text-color');
 		
-		console.log();
+		if(txtColor==null) return;
+		
 		if(!animate) {
 			$('nav[role=main]').css({
 				'background-color':bgColor,
