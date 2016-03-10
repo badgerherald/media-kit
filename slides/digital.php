@@ -24,11 +24,11 @@
 				<tbody>
 					<tr>
 						<td>Leaderboard</td>
-						<td class="price">$16/1k</td>
+						<td class="price">$17/1k</td>
 					</tr>
 					<tr>
 						<td>Sidekick</td>
-						<td class="price">$14/1k</td>
+						<td class="price">$15/1k</td>
 					</tr>
 					<tr>
 						<td>Billboard</td>
