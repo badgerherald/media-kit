@@ -21,7 +21,7 @@
 				<h2>Our staff</h2>
 
 				<p class="profile">
-					<img class="mug" src='https://badgerherald.com/wordpress/media/2015/01/untitled-6-400x280.jpg'/>
+					<img class="mug" src='https://badgerherald.com/media/2014/10/Screen-Shot-2014-10-15-at-5.05.41-PM-345x225.png'/>
 					John Batterman<br/>
 					<span class="profile-title">Ad Director<br/></span>
 					<span class="contact-links"><a href="#">Email</a> &middot; <a href="tel://1-608-257-4712,702">608-257-4712 x700</a></span>
