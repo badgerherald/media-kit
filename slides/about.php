@@ -13,7 +13,7 @@
 
 				<p>Established in 1969, The Badger Herald is one of the first independent and student run newspapers in America. Since its establishment, it has been awarded one of the top five independent newspapers in the country along with countless other awards.</p>
 
-				<p>We publish 11,500 issues on Monday and Thursday to more than 115 locations on the UW Madison Campus, Madison Area Technical College Campus, Capital Square, State Street, and other downtown businesses.</p>
+				<p>We publish 11,500 issues on Tuesday to more than 115 locations on the UW Madison Campus, Madison Area Technical College Campus, Capital Square, State Street, and other downtown businesses.</p>
 
 				<p>Our online news expands much further. Last year, The Badger Herald launched a 24/7 online news model to ensure we report on events the moment they happen via our website and social media outlets. The Badger Herald is UW Madison’s only 24/7 news source.</p>
 
@@ -22,9 +22,9 @@
 
 				<p class="profile">
 					<img class="mug" src='https://badgerherald.com/wordpress/media/2015/01/untitled-6-400x280.jpg'/>
-					Nick Rush<br/>
+					John Batterman<br/>
 					<span class="profile-title">Ad Director<br/></span>
-					<span class="contact-links"><a href="#">Email</a> &middot; <a href="tel://1-608-257-4712,702">608-257-4712 x702</a></span>
+					<span class="contact-links"><a href="#">Email</a> &middot; <a href="tel://1-608-257-4712,702">608-257-4712 x700</a></span>
 				</p>
 
 				</div>
@@ -78,9 +78,9 @@
 				<div class="market">
 					<h4>Market</h4>
 					<ul>
-						<li><span class="num">24,950</span> Undergraduates</li>
-						<li><span class="num">9,430</span> Graduate students</li>
-						<li><span class="num">21,727</span> Faculty & Staff</li>
+						<li><span class="num">29,580</span> Undergraduates</li>
+						<li><span class="num">9,002</span> Graduate students</li>
+						<li><span class="num">35,417</span> Faculty, Staff & Other</li>
 					</ul>
 				</div>
 
@@ -109,7 +109,7 @@
 				-->
 
 				<div class="us-v-them klout">
-					<p>With <b>3x</b> Facebook likes and <b>nearly twice</b> the twitter followers as The Daily Cardinal, we drive more traffic to our website and reach <b>thousands more students.</b></p>
+					<p>With <b>nearly twice</b> the Facebook likes and Twitter followers as The Daily Cardinal, we drive more traffic to our website and reach <b>thousands more students.</b></p>
 				</div>
 
 				<div class="us-v-them circulation">

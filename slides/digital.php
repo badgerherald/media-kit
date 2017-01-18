@@ -39,6 +39,19 @@
 				<tbody>
 
 					<tr>
+						<td>Roadblock Ad</td>
+						<td class="price">$35/1k</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="explainer">Drop down ad, captures entire screen (not pitcured)</td>
+					</tr>
+					
+					
+				</tbody>
+
+				<tbody>
+
+					<tr>
 						<td>Animated</td>
 						<td class="price">add 15%</td>
 					</tr>
@@ -46,21 +59,14 @@
 						<td colspan="2" class="explainer">Run .swf, .gif or video creative (no sound).</td>
 					</tr>
 					
-					<tr>
-						<td>Section Placement</td>
-						<td class="price">add 20%</td>
-					</tr>
-					<tr>
-						<td colspan="2" class="explainer">Choose sports, artsetc, or news placement.</td>
-					</tr>
-
+					
 				</tbody>
 
 			</table>
 
 			<h2>Twitter Ads:</h2>
 
-			<p>We post an ad from our Badger Herald promo account and retweet it to our 12,000 followers. Optionally pay more to promote that tweet to thousands extra students.</p>
+			<p>We post an ad from our Badger Herald promo account and retweet it to our 14,000 followers. Optionally pay more to promote that tweet to thousands extra students.</p>
 
 			<table class="rates">
 				<tbody>

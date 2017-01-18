@@ -234,35 +234,21 @@
 				    		<td colspan="2" class="top-explainer">Add Color:</td>
 				  		</tr>	
 				  		<tr>
-				    		<td>Full Color</td>
+				    		<td>Full color: Ads smaller than ½ page</td>
+				    		<td class="price">add $50</td>
+				  		</tr>
+				  		<tr>
+				    		<td>Full color: Ads of ½ page and larger</td>
 				    		<td class="price">add $100</td>
 				  		</tr>
 				  	</tbody>
 
 					<tbody>
 						<tr>
-				    		<td colspan="2" class="top-explainer">Frequency:</td>
-				  		</tr>	
-				  		<tr>
-				    		<td colspan="2">10% off when purchasing three consecutive days.</td>
-				  		</tr>
-						<tr>
-				    		<td colspan="2" class="top-explainer">Credit:</td>
-				  		</tr>	
-				  		<tr>
-				    		<td colspan="2">5% off when payment is made with credit card.</td>
-				  		</tr>
-						<tr>
 				    		<td colspan="2" class="top-explainer">Guaranteed Placement:</td>
 				  		</tr>	
 				  		<tr>
-				    		<td colspan="2">Secure placement in news, sports or arts for 15%.</td>
-				  		</tr>
-						<tr>
-				    		<td colspan="2" class="top-explainer">Contract:</td>
-				  		</tr>	
-				  		<tr>
-				    		<td colspan="2">Sign a contract and recieve a discount. Clients committing to at least 250 column inches in a 12 month period recieve discounted rates.</td>
+				    		<td colspan="2">Secure placement in news, sports or arts for 10%.</td>
 				  		</tr>
 				  	</tbody>
 
@@ -271,11 +257,7 @@
 				    		<td colspan="2" class="top-explainer">Creative design fees:</td>
 				  		</tr>	
 				  		<tr>
-				    		<td>1/8th page or smaller</td>
-				    		<td class="price">$20</td>
-				  		</tr>	
-				  		<tr>
-				    		<td>1/8th page or larger</td>
+				    		<td>Any Size</td>
 				    		<td class="price">$30</td>
 				  		</tr>	
 				  	</tbody>
@@ -284,18 +266,18 @@
 
 			</div>
 			<div class="right-pane">
-				  <h2>VIP Bundles</h2>
+				  <h2>BH Bundles</h2>
 
 				  <table class="rates">
 				  	<tbody>
 						<tr>
-				    		<td colspan="2" class="top-explainer">VIP Day Bundle ($500 - over $100 in savings):</td>
+				    		<td colspan="2" class="top-explainer">BH Bundle 1 ($725 - over $200 in savings!):</td>
 				  		</tr>	
 				  		<tr>
-				    		<td colspan="2">¼ page full color print advertisement.</td>
+				    		<td colspan="2">2 ¼ page full color print advertisements.</td>
 				  		</tr>
 				  		<tr>
-				    		<td colspan="2">1 Badger Herald endorsed tweet.</td>
+				    		<td colspan="2">6 Badger Herald endorsed tweets.</td>
 				  		</tr>
 						<tr>
 				    		<td colspan="2">10,000 impressions for a 300x250 Sidekick online advertisement </td>
@@ -304,31 +286,16 @@
 
 				  	<tbody>
 						<tr>
-				    		<td colspan="2" class="top-explainer">VIP Week Bundle ($1,000 - over $300 in savings) :</td>
+				    		<td colspan="2" class="top-explainer">BH Bundle 2 ($350 - over $100 in savings!) :</td>
 				  		</tr>	
 				  		<tr>
-				    		<td colspan="2">Two ¼ page full color print advertisements</td>
+				    		<td colspan="2">¼ page full color print advertisement</td>
 				  		</tr>
 				  		<tr>
 				    		<td colspan="2">2 Badger Herald endorsed tweets</td>
 				  		</tr>
 						<tr>
-				    		<td colspan="2">50,000 impressions for a 300x250 Sidekick online advertisement</td>
-				  		</tr>	
-				  	</tbody>
-
-				  	<tbody>
-						<tr>
-				    		<td colspan="2" class="top-explainer">VIP Month Bundle ($1,500 - over $500 in savings):</td>
-				  		</tr>	
-				  		<tr>
-				    		<td colspan="2">Four ¼ full page color print advertisements.</td>
-				  		</tr>
-				  		<tr>
-				    		<td colspan="2">4 Badger Herald endorsed tweets.</td>
-				  		</tr>
-						<tr>
-				    		<td colspan="2">150,000 for a 300x250 Sidekick online advertisement.</td>
+				    		<td colspan="2">5,000 impressions for a 300x250 Sidekick online advertisement</td>
 				  		</tr>	
 				  	</tbody>
 
