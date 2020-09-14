@@ -37,7 +37,7 @@
 	<?php include('slides/nav.php'); ?>
 	<?php include('slides/about.php'); ?>
 	<?php include('slides/digital.php'); ?>
-	<?php include('slides/print.php'); ?>
+	<?php include('slides/email.php'); ?>
 	<?php include('slides/contact.php'); ?>
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

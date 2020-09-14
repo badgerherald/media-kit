@@ -15,7 +15,7 @@
 
 			<h2>How it works:</h2>
 
-			<p>Online ads are sold in qantities of 1,000 impressions spread out between a start and end date chosen by you. The number of purchased impressions determines how often the ad is displayed.</p>
+			<p>Online ads are sold in quantities of 1,000 impressions spread out between a start and end date chosen by you. The number of purchased impressions determines how often the ad is displayed.</p>
 			
 			<h2>Rates:</h2>
 
@@ -32,7 +32,7 @@
 					</tr>
 					<tr>
 						<td>Billboard</td>
-						<td class="price">$12/1k</td>
+						<td class="price">$20/1k</td>
 					</tr>
 				</tbody>
 
@@ -64,9 +64,9 @@
 
 			</table>
 
-			<h2>Twitter Ads:</h2>
+			<h2>Social Media Ads:</h2>
 
-			<p>We post an ad from our Badger Herald promo account and retweet it to our 14,000 followers. Optionally pay more to promote that tweet to thousands extra students.</p>
+			<p>We post an ad from one of our official Badger Herald accounts</p>
 
 			<table class="rates">
 				<tbody>
@@ -76,6 +76,14 @@
 					</tr>
 					<tr>
 						<td colspan="2" class="explainer">Spend up to $50 to promote your tweet.</td>
+					</tr>
+					<tr>
+						<td>Facebook Post</td>
+						<td>$50</td>
+					</tr>
+					<tr>
+						<td>Instagram Post</td>
+						<td>$50</td>
 					</tr>
 				</tbody>
 			</table>
