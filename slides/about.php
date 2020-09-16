@@ -24,9 +24,14 @@
 					<img class="mug" src='img/adam-fearing-shot.jpeg'/>
 					Adam Fearing<br/>
 					<span class="profile-title">Ad Director<br/></span>
-					<span class="contact-links"><a href="mailto:afearing@badgerherald.com">Email</a> &middot; <a href="tel://1-608-257-4712,702">608-257-4712 x700</a></span>
+					<span class="contact-links"><a href="mailto:	addirector@badgerherald.com">Email</a> &middot; <a href="tel://1-608-257-4712,702">608-257-4712 x700</a></span>
 				</p>
-
+				<p class="profile">
+					<img class="mug" src='img/philomena.jpeg'/>
+					Philomena Lindquist<br/>
+					<span class="profile-title">Ad Director<br/></span>
+					<span class="contact-links"><a href="mailto:	addirector@badgerherald.com">Email</a> &middot; <a href="tel://1-608-257-4712,702">608-257-4712 x700</a></span>
+				</p>
 				</div>
 
 				<!-- Begin MailChimp Signup Form  -->

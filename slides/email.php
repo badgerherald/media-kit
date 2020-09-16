@@ -6,48 +6,30 @@
 		<article>		
 
 			<header>
-				<h1>Email Advertising</h1>
+				<h1>Email Newsletter Advertising</h1>
 			</header>
 			
 			<div class="left-pane">
 
-			<p>The two email newsletter editions we publish reach over 40,000 students each week, providing them with the information and content they value. </p>
+			<p>We publish on email newsletters on Tuesdays and Fridays to all 40,000+ UW Students. The newsletters feature the most important articles of the week, and they attract high open and click rates, giving your ad a better chance of engagement.</p>
 
-			<p>Advertising in either of our two editions is a great way to get your message to students through a brand they trust.  </p>
+			<p>Advertising in our email newsletter is a great way to get your message to students through a brand they trust. For an example of what your ads could look like in a Badger Herald Newsletter, <a href ="https://us19.campaign-archive.com/?u=a9c782a06d7cc3a187623635d&id=cbd1bdd870">see this example issue.</a></p>
 			
-			<h2>Tuesday Edition:</h2>
-			<p>This is our main edition of the newsletter, and it's sent to all 40,000+ students at UW.</p>
+			<h2>Rates and Options</h2>
 			<table class="rates">
 				<tbody>
 					<tr>
-						<td>Banner:</td>
+						<td>Banner Ad:</td>
 						<td class="price">$400</td>
 					</tr>
 					<tr>
-						<td>Sidekick</td>
+						<td>Sidekick Ad:</td>
 						<td class="price">$300</td>
 					</tr>
 </tbody>
 
 			</table>
 
-			<h2>Friday Edition:</h2>
-			<p>Our Friday edition is opt-in, with a circulation of around 1,000. Offers less reach but higher open and click rates.</p>
-		
-
-			<table class="rates">
-			
-				<tbody>
-					<tr>
-						<td>Banner Ad:</td>
-						<td class="price">$150</td>
-					</tr>
-					<tr>
-						<td>Sidekick</td>
-						<td class="price">$120</td>
-					</tr>
-				</tbody>
-			</table>
 			</div>
 			
 			<div class="right-pane">
