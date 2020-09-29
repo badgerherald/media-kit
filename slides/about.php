@@ -13,26 +13,31 @@
 
 				<p>Established in 1969, The Badger Herald is one of the first independent and student run newspapers in America. Since its establishment, it has been awarded one of the top five independent newspapers in the country along with countless other awards.</p>
 
-				<p>We publish 11,500 issues on Tuesday to more than 115 locations on the UW Madison Campus, Madison Area Technical College Campus, Capital Square, State Street, and other downtown businesses.</p>
+				<p>Due to the physical lack of students on campus, we have decided to suspend our print issue for the rest of the semester and until in-person classes resume. In its place, we are publishing two newsletters a week to send the latest articles straight to email inboxes. </p>
 
-				<p>Our online news expands much further. Last year, The Badger Herald launched a 24/7 online news model to ensure we report on events the moment they happen via our website and social media outlets. The Badger Herald is UW Madison’s only 24/7 news source.</p>
+				<p>Our online news expands much further. The Badger Herald operates on a 24/7 online news model to ensure we report on events the moment they happen via our website and social media outlets. The Badger Herald is UW Madison’s only 24/7 news source.</p>
 
 				<div class="staff">
 				<h2>Our staff</h2>
 
 				<p class="profile">
-					<img class="mug" src='https://badgerherald.com/media/2014/10/Screen-Shot-2014-10-15-at-5.05.41-PM-345x225.png'/>
-					John Batterman<br/>
+					<img class="mug" src='img/adam-fearing-shot.jpeg'/>
+					Adam Fearing<br/>
 					<span class="profile-title">Ad Director<br/></span>
-					<span class="contact-links"><a href="#">Email</a> &middot; <a href="tel://1-608-257-4712,702">608-257-4712 x700</a></span>
+					<span class="contact-links"><a href="mailto:	addirector@badgerherald.com">Email</a> &middot; <a href="tel://1-608-257-4712,3">608-257-4712 x3</a></span>
 				</p>
-
+				<p class="profile">
+					<img class="mug" src='img/philomena.jpeg'/>
+					Philomena Lindquist<br/>
+					<span class="profile-title">Ad Director<br/></span>
+					<span class="contact-links"><a href="mailto:	addirector@badgerherald.com">Email</a> &middot; <a href="tel://1-608-257-4712,3">608-257-4712 x3</a></span>
+				</p>
 				</div>
 
-				<!-- Begin MailChimp Signup Form -->
+				<!-- Begin MailChimp Signup Form  -->
 				<div id="mc_embed_signup" class="newsletter">
 
-					<form action="//badgerherald.us9.list-manage.com/subscribe/post?u=9aab7c87ebbc679986cacc7ab&amp;id=44b62800d9" 						method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" 						novalidate>
+					<form action="https://badgerherald.us2.list-manage.com/subscribe/post?u=12874b77dd63970606fbc5956&amp;id=010e1123e4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 					    <div id="mc_embed_signup_scroll">
 						<h2>Subscribe to our mailing list</h2>
 						<p>Sign up for advertising deals and promotions and get the best value for your advertising dollars!</p>
@@ -66,6 +71,7 @@
 				</div>
 
 					<!--End mc_embed_signup-->
+					
 			</div>
 			
 			<div class="right-pane">
@@ -78,8 +84,8 @@
 				<div class="market">
 					<h4>Market</h4>
 					<ul>
-						<li><span class="num">29,580</span> Undergraduates</li>
-						<li><span class="num">9,002</span> Graduate students</li>
+						<li><span class="num">31,185</span> Undergraduates</li>
+						<li><span class="num">9,047</span> Graduate students</li>
 						<li><span class="num">35,417</span> Faculty, Staff & Other</li>
 					</ul>
 				</div>
@@ -87,8 +93,8 @@
 				<div class="reach">
 					<h4>Reach</h4>
 					<ul>
-						<li><span class="num">11,500</span> Papers distributed weekly</li>
-						<li><span class="num">250,000+</span> Site sessions per month</li>
+						<li><span class="num">40,000+</span> Weekly Email Recipients</li>
+						<li><span class="num">250,000+</span> Page views per month</li>
 						<li><span class="num">36,000+</span> Site visitors returning more than 10 times per month.</li>
 					</ul>
 				</div>
@@ -112,9 +118,10 @@
 					<p>With <b>nearly twice</b> the Facebook likes and Twitter followers as The Daily Cardinal, we drive more traffic to our website and reach <b>thousands more students.</b></p>
 				</div>
 
-				<div class="us-v-them circulation">
+				<!--<div class="us-v-them circulation">
 					<p>Our weekly distribution <b>stays on stands</b> longer than The Daily Cardinal, giving ads more exposure without the added cost of daily purchase.</p>
-				</div>
+				</div> 
+				-->
 
 
 				<div class="clearfix"></div>
