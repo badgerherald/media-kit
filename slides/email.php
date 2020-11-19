@@ -33,7 +33,7 @@
 			</div>
 			
 			<div class="right-pane">
-			<img src="img/herald-ad-spots.png" />
+			<img src="img/herald-newsletter-ad-spots.jpg" />
 			</div>
 
 			
